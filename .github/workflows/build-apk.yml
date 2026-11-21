@@ -60,8 +60,8 @@ jobs:
             echo "::warning::Primary build failed; switching to Sazgar verified WebView APK fallback."
             find app/src/main/java -type f -name '*.kt' -delete || true
             find app/src/main/res -mindepth 2 -type f ! -name 'strings.xml' -delete || true
-            mkdir -p "app/src/main/java/com/sazgar/generated/02ca9f27"
-            cp ci-fallback/WebViewMainActivity.kt.tpl "app/src/main/java/com/sazgar/generated/02ca9f27/MainActivity.kt"
+            mkdir -p "app/src/main/java/com/sazgar/generated/p02ca9f27"
+            cp ci-fallback/WebViewMainActivity.kt.tpl "app/src/main/java/com/sazgar/generated/p02ca9f27/MainActivity.kt"
             cp ci-fallback/AndroidManifest.xml.tpl app/src/main/AndroidManifest.xml
             cp ci-fallback/app.build.gradle.kts.tpl app/build.gradle.kts
             gradle :app:assembleDebug --no-daemon --stacktrace

@@ -1,4 +1,4 @@
-package com.sazgar.generated.02ca9f27
+package com.sazgar.generated.p02ca9f27
 
 import android.annotation.SuppressLint
 import android.content.Intent

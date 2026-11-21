@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.sazgar.generated.02ca9f27"
+    namespace = "com.sazgar.generated.p02ca9f27"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.sazgar.generated.02ca9f27"
+        applicationId = "com.sazgar.generated.p02ca9f27"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
